@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 void main(){
+    printf("[----- [Park Taehyun] [2018068040] -----]\n\n");
     int list[5];
     int *plist[5] = {NULL, };
 
