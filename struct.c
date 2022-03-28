@@ -41,7 +41,7 @@ int main(){
     /* if(st3 == st2)
         printf("equal");
     else
-        printf("not equal"); 구조체 간 직접 비교연산은 불가능함을 확인
+        printf("not equal"); 구조체 간 직접 비교연산은 불가능함을 확인 (문법 오류 발생)
     */
     return 0;
 }

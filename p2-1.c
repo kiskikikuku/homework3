@@ -16,7 +16,7 @@ void main(void){
     printf("address of input = %p\n", input); // 배열의 시작주소 출력
 
     answer = sum(input, MAX_SIZE); // answer에 합 구하여 대입
-    printf("The sum is: %f\n", answer); // 합 출력
+    printf("The sum is: %f\n", answer); // 합 출력 (0~99까지 정수의 합 -> 4950)
 }
 
 float sum(float list[], int n){ //float형 배열과 배열 크기 n을 받아 합을 계산하여 반환하는 함수
@@ -30,5 +30,5 @@ float sum(float list[], int n){ //float형 배열과 배열 크기 n을 받아 �
     for (i = 0; i < n; i++)
         tempsum +=list[i]; // 합 구하기
      
-    return tempsum; // 합 반환
+    return tempsum; // 합 반환 
 }

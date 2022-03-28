@@ -16,7 +16,7 @@ int main(){
     return 0;
 }
 
-void print1(int *ptr, int rows){ // 1차원 배열의 시작주소, 원소갯수를 넘겨받아 주소, 그 주소가 담은 값을 출력해주는 함수
+void print1(int *ptr, int rows){ // 정수형 포인터, 정수 rows를 받아서 (ptr+i) 주소의 값을 rows번 출력해주는 함수
 
     int i;
     printf("Address \t Contents\n");
